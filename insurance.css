@@ -14,9 +14,18 @@
     background-color: brown;
 }
 #login{
-    background-color: lawngreen;
     width: 300px;
     display: inherit;
     align-items: inherit;
     justify-content: space-evenly;
+}
+#login button{
+    height: 30px;
+    width: 150px;
+    text-align: start;
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+    
 }
