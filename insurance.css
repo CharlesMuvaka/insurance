@@ -13,3 +13,10 @@
     width: 100%;
     background-color: brown;
 }
+#login{
+    background-color: lawngreen;
+    width: 300px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: space-evenly;
+}
