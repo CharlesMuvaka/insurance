@@ -10,6 +10,7 @@
  + [Authors Info](#author-Info)
  ## Description
  <p>This is  a website that describes the services offered by insurance company, its location and also shows current proffessionals that will assist you whenever you are stuck.</p>
+ 
  ## Installation
  ### Requirements
  * Either a computer,phone,tablet or an Ipad
