@@ -1,268 +1,310 @@
-                                .container {
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    justify-content: space-between;
-                                    color: white;
-                                    height: 600px;
-                                    width: 100%;
-                                    background-image: url("./images/hero-cover.3.png");
-                                    opacity: 1;
-                                    background-size: cover;
-                                    background-color: #252B42;
-                                }
-                                
-                                .topCont {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: space-around;
-                                    height: 50px;
-                                    width: 80%;
-                                }
-                                
-                                #login {
-                                    position: relative;
-                                    width: 300px;
-                                    display: inherit;
-                                    align-items: inherit;
-                                    justify-content: space-evenly;
-                                    left: 10px;
-                                }
-                                
-                                #login button {
-                                    height: 30px;
-                                    width: 150px;
-                                    text-align: start;
-                                    background-color: #23A6F0;
-                                    color: white;
-                                    border-radius: 5px;
-                                    border: 1px solid #23A6F0;
-                                }
-                                /* #topNav{ 
-    position: relative;
-    left: -10px;
-
-}*/
-                                
-                                #topNav a {
-                                    text-decoration: none;
-                                    color: white;
-                                    padding: 10px;
-                                }
-                                
-                                .cont2 {
-                                    display: flex;
-                                    flex-direction: column;
-                                    height: 300px;
-                                    width: 50%;
-                                    justify-content: space-between;
-                                    align-items: center;
-                                    position: relative;
-                                    bottom: -80px;
-                                }
-                                
-                                .cont3 {
-                                    display: flex;
-                                    justify-content: space-around;
-                                    width: 75%;
-                                    height: 150px;
-                                    position: relative;
-                                    bottom: -100px;
-                                }
-                                
-                                .cont3 img:last-child {
-                                    color: #23A6F0;
-                                }
-                                
-                                .cont2 h1 {
-                                    font-size: 50px;
-                                }
-                                
-                                .cont2 p {
-                                    font-size: 20px;
-                                    text-align: center;
-                                    position: relative;
-                                    top: -30px;
-                                }
-                                
-                                .cont2>span>button {
-                                    height: 30px;
-                                    width: 120px;
-                                    color: white;
-                                    border-radius: 50px;
-                                    border: 1px solid white;
-                                    background: transparent;
-                                }
-                                
-                                .cont2>span>button:first-child {
-                                    background-color: #23A6F0;
-                                    border: 1px solid #23A6F0;
-                                }
-                                
-                                .value {
-                                    display: flex;
-                                    flex-direction: column;
-                                    width: 200px;
-                                    background-color: white;
-                                    border: 1px solid white;
-                                    height: 100%;
-                                    padding-left: 15px;
-                                }
-                                
-                                #val {
-                                    background-color: #23A6F0;
-                                    border: 1px solid #23A6F0;
-                                    color: white;
-                                }
-                                
-                                .value p {
-                                    color: black;
-                                    font-size: 10px;
-                                }
-                                
-                                .value h3 {
-                                    color: black;
-                                }
-                                
-                                .val {
-                                    display: flex;
-                                    flex-direction: column;
-                                    width: 300px;
-                                    background-color: white;
-                                    border: 1px solid white;
-                                    justify-content: center;
-                                    align-items: center;
-                                    height: 100px;
-                                }
-                                
-                                .val p {
-                                    text-align: center;
-                                    font-size: 10px;
-                                    color: black;
-                                    margin-top: 5px;
-                                }
-                                
-                                .izee {
-                                    display: flex;
-                                    justify-content: space-around;
-                                    height: 200px;
-                                    width: 80%;
-                                }
-                                
-                                .cont4 {
-                                    display: flex;
-                                    justify-content: center;
-                                    position: relative;
-                                    margin-top: 150px;
-                                    height: 300px;
-                                    width: 100%;
-                                    align-items: center;
-                                }
-                                
-                                .izee .value {
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-                                
-                                .value img {
-                                    height: 50px;
-                                    width: 100px;
-                                    color: #23A6F0;
-                                }
-                                
-                                .cont5 {
-                                    height: 700px;
-                                    width: 100%;
-                                    display: flex;
-                                    flex-direction: column;
-                                    align-items: center;
-                                    justify-content: space-evenly;
-                                }
-                                
-                                .cont5 .value {
-                                    height: 100px;
-                                    width: 200px;
-                                    justify-content: space-around;
-                                    align-items: center;
-                                    display: flex;
-                                }
-                                
-                                .cont5 .value p {
-                                    text-align: center;
-                                }
-                                
-                                .user1 {
-                                    height: 250px;
-                                    width: 80%;
-                                    display: flex;
-                                    flex-direction: row;
-                                    justify-content: space-around;
-                                }
-                                
-                                .user {
-                                    height: 250px;
-                                    width: 25%;
-                                    background-color: white;
-                                    border: 1px rgb(240, 220, 220) solid;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-around;
-                                    align-items: center;
-                                }
-                                
-                                .user img {
-                                    object-fit: contain;
-                                    height: 100px;
-                                    width: 100px;
-                                }
-                                
-                                .user p {
-                                    text-align: center;
-                                }
-                                
-                                .style {
-                                    display: flex;
-                                    width: 74%;
-                                    height: 80px;
-                                    align-items: center;
-                                    justify-content: space-around;
-                                }
-                                
-                                .style img {
-                                    height: 50px;
-                                    width: 100px;
-                                    object-fit: contain;
-                                }
-                                
-                                .search {
-                                    height: 80px;
-                                    width: 74%;
-                                    background-color: #482ab4;
-                                    display: flex;
-                                    justify-content: space-around;
-                                    align-items: center;
-                                }
-                                
-                                .sub {
-                                    background-color: white;
-                                    width: 45%;
-                                    height: 30px;
-                                    display: flex;
-                                    justify-content: space-between;
-                                    align-items: center;
-                                    border: 1px solid white;
-                                    border-radius: 5px;
-                                }
-                                
-                                #sub {
-                                    height: 30px;
-                                    color: white;
-                                    background-color: #23A6F0;
-                                    border: 1px solid #23A6F0;
-                                    border-radius: 0 5px 5px 0;
-                                }
-                                
-                                .sub p {
-                                    margin-left: 10px;
-                                    font-size: 10px;
-                                }
+                                        .container {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            justify-content: space-between;
+                                            color: white;
+                                            height: 600px;
+                                            width: 100%;
+                                            background-image: url("./images/hero-cover.3.png");
+                                            opacity: 1;
+                                            background-size: cover;
+                                            background-color: #252B42;
+                                        }
+                                        
+                                        .topCont {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: space-around;
+                                            height: 50px;
+                                            width: 80%;
+                                        }
+                                        
+                                        #login {
+                                            position: relative;
+                                            width: 300px;
+                                            display: inherit;
+                                            align-items: inherit;
+                                            justify-content: space-evenly;
+                                            left: 10px;
+                                        }
+                                        
+                                        #login button {
+                                            height: 30px;
+                                            width: 150px;
+                                            text-align: start;
+                                            background-color: #23A6F0;
+                                            color: white;
+                                            border-radius: 5px;
+                                            border: 1px solid #23A6F0;
+                                        }
+                                        
+                                        #topNav a {
+                                            text-decoration: none;
+                                            color: white;
+                                            padding: 10px;
+                                        }
+                                        
+                                        .cont2 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            height: 300px;
+                                            width: 50%;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            position: relative;
+                                            bottom: -80px;
+                                        }
+                                        
+                                        .cont3 {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            width: 75%;
+                                            height: 150px;
+                                            position: relative;
+                                            bottom: -100px;
+                                        }
+                                        
+                                        .cont3 img:last-child {
+                                            color: #23A6F0;
+                                        }
+                                        
+                                        .cont2 h1 {
+                                            font-size: 50px;
+                                        }
+                                        
+                                        .cont2 p {
+                                            font-size: 20px;
+                                            text-align: center;
+                                            position: relative;
+                                            top: -30px;
+                                        }
+                                        
+                                        .cont2>span>button {
+                                            height: 30px;
+                                            width: 120px;
+                                            color: white;
+                                            border-radius: 50px;
+                                            border: 1px solid white;
+                                            background: transparent;
+                                        }
+                                        
+                                        .cont2>span>button:first-child {
+                                            background-color: #23A6F0;
+                                            border: 1px solid #23A6F0;
+                                        }
+                                        
+                                        .value {
+                                            display: flex;
+                                            flex-direction: column;
+                                            width: 200px;
+                                            background-color: white;
+                                            border: 1px solid white;
+                                            height: 100%;
+                                            padding-left: 15px;
+                                        }
+                                        
+                                        #val {
+                                            background-color: #23A6F0;
+                                            border: 1px solid #23A6F0;
+                                            color: white;
+                                        }
+                                        
+                                        .value p {
+                                            color: black;
+                                            font-size: 10px;
+                                        }
+                                        
+                                        .value h3 {
+                                            color: black;
+                                        }
+                                        
+                                        .val {
+                                            display: flex;
+                                            flex-direction: column;
+                                            width: 300px;
+                                            background-color: white;
+                                            border: 1px solid white;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100px;
+                                        }
+                                        
+                                        .val p {
+                                            text-align: center;
+                                            font-size: 10px;
+                                            color: black;
+                                            margin-top: 5px;
+                                        }
+                                        
+                                        .izee {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            height: 200px;
+                                            width: 80%;
+                                        }
+                                        
+                                        .cont4 {
+                                            display: flex;
+                                            justify-content: center;
+                                            position: relative;
+                                            margin-top: 150px;
+                                            height: 300px;
+                                            width: 100%;
+                                            align-items: center;
+                                        }
+                                        
+                                        .izee .value {
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .value img {
+                                            height: 50px;
+                                            width: 100px;
+                                            color: #23A6F0;
+                                        }
+                                        
+                                        .cont5 {
+                                            height: 700px;
+                                            width: 100%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            justify-content: space-evenly;
+                                        }
+                                        
+                                        .cont5 .value {
+                                            height: 100px;
+                                            width: 200px;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                            display: flex;
+                                        }
+                                        
+                                        .cont5 .value p {
+                                            text-align: center;
+                                        }
+                                        
+                                        .user1 {
+                                            height: 250px;
+                                            width: 80%;
+                                            display: flex;
+                                            flex-direction: row;
+                                            justify-content: space-around;
+                                        }
+                                        
+                                        .user {
+                                            height: 250px;
+                                            width: 25%;
+                                            background-color: white;
+                                            border: 1px rgb(240, 220, 220) solid;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                        }
+                                        
+                                        .user img {
+                                            object-fit: contain;
+                                            height: 100px;
+                                            width: 100px;
+                                        }
+                                        
+                                        .user p {
+                                            text-align: center;
+                                        }
+                                        
+                                        .style {
+                                            display: flex;
+                                            width: 74%;
+                                            height: 80px;
+                                            align-items: center;
+                                            justify-content: space-around;
+                                        }
+                                        
+                                        .style img {
+                                            height: 50px;
+                                            width: 100px;
+                                            object-fit: contain;
+                                        }
+                                        
+                                        .search {
+                                            height: 80px;
+                                            width: 74%;
+                                            background-color: #482ab4;
+                                            display: flex;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                        }
+                                        
+                                        .sub {
+                                            background-color: white;
+                                            width: 45%;
+                                            height: 30px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            border: 1px solid white;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        #sub {
+                                            height: 30px;
+                                            color: white;
+                                            background-color: #23A6F0;
+                                            border: 1px solid #23A6F0;
+                                            border-radius: 0 5px 5px 0;
+                                        }
+                                        
+                                        .sub p {
+                                            margin-left: 10px;
+                                            font-size: 10px;
+                                        }
+                                        
+                                        .cont6 {
+                                            height: 800px;
+                                            width: 100%;
+                                            background-color: rgb(238, 228, 228);
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                        }
+                                        
+                                        .price {
+                                            height: 100px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                        }
+                                        
+                                        .price p {
+                                            font-weight: 50;
+                                            font-size: 13px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .prices {
+                                            height: 600px;
+                                            width: 75%;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        
+                                        .standard {
+                                            height: 500px;
+                                            border: 1px solid lightblue;
+                                            border-radius: 10px;
+                                            width: 45%;
+                                            background-color: white;
+                                        }
+                                        
+                                        .premium {
+                                            height: 550px;
+                                            border: 1px;
+                                            border-radius: 10px;
+                                            width: 45%;
+                                            background-color: #252B42;
+                                        }
